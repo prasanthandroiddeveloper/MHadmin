@@ -1,0 +1,2 @@
+rootProject.name='MHadmin'
+include ':app'

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_margin="2dp">
+
+        <EditText
+            android:id="@+id/Tvid"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="0.25"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:textColor="@color/colorPrimary"
+            android:autofillHints="id" />
+
+        <EditText
+            android:id="@+id/Tvipnm"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:autofillHints="name"/>
+
+        <EditText
+            android:id="@+id/Tvipadrs"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#FF4081"
+            android:textSize="18sp"
+            android:autofillHints="Ip address"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:layout_marginTop="30dp"
+        android:layout_margin="2dp">
+
+
+        <TextView
+            android:id="@+id/btnEdit"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="#D50000"
+            android:text="Edit"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/btnSave"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:background="#00C853"
+            android:text="Save"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_marginStart="5dp"
+
+            android:layout_marginLeft="5dp" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
